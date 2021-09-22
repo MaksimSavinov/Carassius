@@ -2401,7 +2401,7 @@ namespace PNEditorEditView
             Net.nodes.Clear();
             Net.arcs.Clear();
             List<List<PetriNetNode>> level = new List<List<PetriNetNode>>();
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 10000; i++)
             {
                 level.Add(new List<PetriNetNode>());
             }
